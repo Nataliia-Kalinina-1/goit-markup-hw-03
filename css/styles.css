@@ -191,7 +191,7 @@ button:focus {
   justify-content: start;
   gap: 24px;
 }
-.principal-item {
+.principals-item {
   width: calc((100% - 72px) / 4);
   height: 104px;
   border: none;
@@ -215,6 +215,7 @@ button:focus {
   background-color: #f4f4fd;
   height: 732px;
   margin: 0 auto;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -225,7 +226,7 @@ button:focus {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding: 120px 0 72px 0;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -245,8 +246,7 @@ button:focus {
 
 .team-name-position {
   height: 56px;
-  margin-top: 32px;
-  padding: 0 16px 32px 16px;
+  padding: 32px 0;
 }
 
 .team-name {
